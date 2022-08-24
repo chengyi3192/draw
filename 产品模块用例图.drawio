@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T07:42:39.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.6" etag="zfM0TwdVxHitsFNVCgfw" type="github"><diagram id="wj-a5wamXVH9eNrutEgm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-24T07:45:07.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VEK8pxfFGJ2fp-qu2w_1" version="20.2.6" type="github">
+  <diagram id="wj-a5wamXVH9eNrutEgm" name="第 1 页">
+    <mxGraphModel dx="1426" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mGMuFRgEKvwrgmcRHyLP-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fillColor=#97D077;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="250" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mGMuFRgEKvwrgmcRHyLP-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;产品列表&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mGMuFRgEKvwrgmcRHyLP-3" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;产品分类&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="390" y="240" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mGMuFRgEKvwrgmcRHyLP-4" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;订单列表&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="390" y="330" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mGMuFRgEKvwrgmcRHyLP-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;产品结算&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mGMuFRgEKvwrgmcRHyLP-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;strokeColor=#3399FF;" edge="1" parent="1" source="mGMuFRgEKvwrgmcRHyLP-1" target="mGMuFRgEKvwrgmcRHyLP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mGMuFRgEKvwrgmcRHyLP-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;strokeColor=#3399FF;entryX=0.083;entryY=0.571;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mGMuFRgEKvwrgmcRHyLP-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="411.34960248652055" y="215.48437790041237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mGMuFRgEKvwrgmcRHyLP-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;strokeColor=#3399FF;entryX=0.008;entryY=0.257;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mGMuFRgEKvwrgmcRHyLP-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="421.34960248652055" y="225.48437790041237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mGMuFRgEKvwrgmcRHyLP-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=24;strokeColor=#3399FF;entryX=0.033;entryY=0.343;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mGMuFRgEKvwrgmcRHyLP-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="431.34960248652055" y="235.48437790041237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
