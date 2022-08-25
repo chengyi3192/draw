@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2022-08-25T02:55:57.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.6" etag="CZ978b1_DPu75H8RrXXv" type="github"><diagram id="ulHquyAZVESvACAlIN-Q">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-25T02:58:06.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HCPXZ1Itw-0hOjqkMvZt" version="20.2.6" type="github">
+  <diagram id="ulHquyAZVESvACAlIN-Q" name="第 1 页">
+    <mxGraphModel dx="1426" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-1" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;结算账户&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="390" y="260" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-2" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;银行名称&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="570" y="260" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-3" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;账户类型&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-4" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;是否审核&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="260" y="370" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-5" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;银行卡号&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-6" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;开户行&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="480" y="130" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-7" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;用户id&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="270" y="130" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#3399FF;" edge="1" parent="1" source="2SKK1Q1PVFazh3mUvGmM-1" target="2SKK1Q1PVFazh3mUvGmM-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="282.5" as="sourcePoint" />
+            <mxPoint x="548.3258081584377" y="267.24162543777743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#3399FF;" edge="1" parent="1" source="2SKK1Q1PVFazh3mUvGmM-1" target="2SKK1Q1PVFazh3mUvGmM-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="292.5" as="sourcePoint" />
+            <mxPoint x="558.3258081584377" y="277.24162543777743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#3399FF;" edge="1" parent="1" source="2SKK1Q1PVFazh3mUvGmM-1" target="2SKK1Q1PVFazh3mUvGmM-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="302.5" as="sourcePoint" />
+            <mxPoint x="568.3258081584377" y="287.24162543777743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;strokeColor=#3399FF;" edge="1" parent="1" source="2SKK1Q1PVFazh3mUvGmM-1" target="2SKK1Q1PVFazh3mUvGmM-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="312.5" as="sourcePoint" />
+            <mxPoint x="578.3258081584377" y="297.24162543777743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-12" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#3399FF;" edge="1" parent="1" source="2SKK1Q1PVFazh3mUvGmM-1" target="2SKK1Q1PVFazh3mUvGmM-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="280" as="sourcePoint" />
+            <mxPoint x="588.3258081584377" y="307.24162543777743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2SKK1Q1PVFazh3mUvGmM-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#3399FF;" edge="1" parent="1" source="2SKK1Q1PVFazh3mUvGmM-1" target="2SKK1Q1PVFazh3mUvGmM-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="332.5" as="sourcePoint" />
+            <mxPoint x="598.3258081584377" y="317.24162543777743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
