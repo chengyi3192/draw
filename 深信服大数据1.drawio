@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T06:21:01.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5afxUiAGyC1vF-zC7RST" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-09T01:57:37.981Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="nwpIIABKYVvrrueprnLg" version="20.3.7" type="github">
   <diagram id="jzl4xcIuk8wNe75Q2RIP" name="第 1 页">
-    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="70" y="40" width="348.93" height="520" as="geometry" />
         </mxCell>
         <mxCell id="HZPbMIjPk6rG7j14ESul-14" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="510" y="170" width="460" height="490" as="geometry" />
+          <mxGeometry x="500" y="170" width="508" height="490" as="geometry" />
         </mxCell>
         <mxCell id="HZPbMIjPk6rG7j14ESul-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="HZPbMIjPk6rG7j14ESul-14" vertex="1">
           <mxGeometry width="460" height="490" as="geometry" />
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="kRgR9qBxpHMn5H8Rr1PL-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;离线计算：离线同步/sql/spark/flink/mapreduce/http/python&lt;br&gt;关系：子流程/依赖/分支&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=24;align=left;" parent="kRgR9qBxpHMn5H8Rr1PL-10" vertex="1">
           <mxGeometry x="10" y="51" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="54o6raDSS8NgsW2YqvEB-5" value="数据源：DS&lt;br&gt;实时采集：flume&lt;br&gt;CDC同步：flink cdc&lt;br&gt;离线同步：flinkx&lt;br&gt;离线开发：ds" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="30" width="435" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
